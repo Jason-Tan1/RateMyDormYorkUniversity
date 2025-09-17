@@ -1,0 +1,87 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8ffe5; 
+    color: #175676;
+    text-align: center;
+}
+
+header {
+    background-color: #4ba3c3; 
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #175676; 
+    padding: 10px 0;
+}
+
+nav a {
+    background-color: #cce6f4;
+    border: none;
+    color: #175676;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #4ba3c3;
+    color: white;
+}
+
+/* Residences Section */
+.residences {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.residence {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.residence img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.residence img:hover {
+    transform: scale(1.1);
+}
+
+.residence h3 {
+    font-size: 14px;
+    color: #175676;
+    margin-top: 5px;    
+}
+
+footer {
+    background-color: #175676; 
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
