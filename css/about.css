@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8ffe5;
+    color: #175676;
+}
+
+header {
+    background-color: #e20c2c;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.homeButton {
+    font-size: 32px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 375px;
+}
+
+.homeButton:hover {
+    text-decoration: underline;
+}
+
+.profileButton {
+    background-color: white;
+    color: #4ba3c3;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profileButton:hover {
+    background-color: #cce6f4;
+}
+
+nav {
+    background-color: #175676; /* Matches the dark blue bar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    background-color: #cce6f4; /* Light blue background */
+    color: #175676; /* Dark blue text */
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #4ba3c3; /* Changes on hover */
+    color: white;
+}
+
+
+
+.aboutContainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #175676;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #f8ffe5;
+}
+
+.aboutContainer h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4ba3c3;
+}
+
+.aboutContainer h2 {
+    color: #f8ffe5;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.aboutContainer p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.aboutContainer ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.aboutContainer ul li {
+    margin-bottom: 10px;
+}
+
+.missionContainer {
+    background-color: #d4c5e2;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #175676;
+}
+
+.missionContainer h2 {
+    color: #f8ffe5;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8ffe5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    text-align: center;
+    color: #175676;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.faqItem {
+    margin-bottom: 15px;
+}
+
+.faqQuestion {
+    background-color: #4ba3c3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faqQuestion:hover {
+    background-color: #175676;
+}
+
+.faqAnswer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #175676;
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d4c5e2;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.faqAnswer.open {
+    display: block;
+    max-height: 200px;
+    opacity: 1;
+}
+
+footer {
+    background-color: #175676;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

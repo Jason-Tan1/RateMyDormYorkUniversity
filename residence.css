@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8ffe5;
+    color: #175676;
+    text-align: center;
+}
+
+header {
+    background-color: #4ba3c3;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #175676;
+    padding: 10px 0;
+}
+
+nav button {
+    background-color: #cce6f4;
+    border: none;
+    color: #175676;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #4ba3c3;
+    color: white;
+}
+
+.universities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.universities h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #175676;
+    width: 100%;
+}
+
+.university {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 16px;
+}
+
+.university img {
+    width: 90%;
+    max-width: 300px;
+    height: 185px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.university img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.university h3 {
+    font-size: 16px;
+    color: #175676;
+    margin-top: 5px;    
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #175676;
+    color: white;
+    padding: 10px;
+}
