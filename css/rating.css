@@ -1,0 +1,142 @@
+/* Body and General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8ffe5; /* Matches explore page background */
+  color: #175676;
+  text-align: center;
+}
+
+/* Header Image Container */
+.header-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.header-image-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-image-container h2 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 24px;
+  font-weight: normal;
+}
+
+
+/* Navigation Bar */
+nav {
+  background-color: #175676;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4ba3c3;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #cce6f4;
+  color: #175676;
+}
+
+/* Form Styling */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #4ba3c3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #175676;
+}
+
+/* Reviews Section */
+.reviews {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.review {
+  background: #ffffff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review .stars {
+  color: #ffc107;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review p {
+  margin: 0;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Footer */
+footer {
+  background-color: #175676;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
